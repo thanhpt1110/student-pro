@@ -131,9 +131,9 @@ public class StudentFragment extends Fragment {
 
                 // Show a dialog to confirm deletion
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setTitle("Delete Student")
-                        .setMessage("Are you sure you want to delete " + student.getName() + " ?")
-                        .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                builder.setTitle("Xóa thông tin sinh viên")
+                        .setMessage("Bạn có chắc chắn muốn xóa " + student.getName() + " ?")
+                        .setPositiveButton("Xóa", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 // Delete the student from Firebase
@@ -141,10 +141,10 @@ public class StudentFragment extends Fragment {
                                 studentDAO.deleteStudent(studentId);
                                 students.remove(position);
                                 customAdapter.notifyDataSetChanged();
-                                Toast.makeText(getActivity(), "Student deleted", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "Xóa thành công!", Toast.LENGTH_SHORT).show();
                             }
                         })
-                        .setNegativeButton("Cancel", null)
+                        .setNegativeButton("Hủy", null)
                         .show();
                 // Return true to indicate that the event has been consumed
                 return true;
