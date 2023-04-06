@@ -7,6 +7,8 @@ Basic Android app to manage Student and Class Information with Readtime Firebase
 - Student information management.
 - Class information management.
 
+Language: Vietnamese.
+
 # Target
 
 - Interact data with Realtime Firebase.
@@ -17,7 +19,7 @@ Basic Android app to manage Student and Class Information with Readtime Firebase
 
 # Download
 
-https://drive.google.com/file/d/1X1f9a4TjG8rh1KZPr-e_JAi5nW4PDfnN/view?usp=share_link
+https://drive.google.com/file/d/1DBzbwFZXAnbPpkDxATdN7Y-K_Ek-BIyW/view?usp=share_link
 
 # About
 
