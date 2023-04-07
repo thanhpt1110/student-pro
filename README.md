@@ -1,6 +1,6 @@
 # Student Pro
 
-Basic Android app to manage Student and Class Information with Readtime Firebase.
+Basic Android app to manage Student and Class Information with Firebase Realtime Database.
 
 # Bussiness
 
